@@ -23,7 +23,7 @@ Ambas implementam os seguintes submodulos:
 #### Cohda MK6C
 Equipamento de comunicação que tem portabilidade CV2X, DSRC, CAN e entre outras soluções. A API praticamente vem pronta e modificamos para adequar à nosso projeto.
 
-- exampleCN:
+- exampleCN: https://github.com/ProjetoSegurAuto/exampleCN-LIVE
 
 Todos os devices são conectados ao barramento CAN.
 
