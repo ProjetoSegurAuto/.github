@@ -21,9 +21,11 @@ Ambas implementam os seguintes submodulos:
 - MAC, filtra os MACs que a ECU pode enviar via rádio. Tem como objetivo auxiliar em testes e estudos para Platoons já formados: https://github.com/ProjetoSegurAuto/MAC_Topology_Platoon
 
 #### Cohda MK6C
-Equipamento de comunicação que tem portabilidade CV2X, DSRC, CAN e entre outras soluções. A API praticamente vem pronta e modificamos para adequar à nosso projeto.
+Equipamento de comunicação que tem portabilidade CV2X, CAN e entre outras soluções. Atualmente trabalhamos com duas abordagens.
 
-- exampleCN: https://github.com/ProjetoSegurAuto/exampleCN-LIVE
+-  ECU-communication-cohda | Versão atualmente utilizada no projeto que básicamente implementa técnicas de threads para garantir uma abordagem paralela baseada nos serviços de comunicação: https://github.com/ProjetoSegurAuto/ECU-communication-cohda
+
+- exampleCN | Versão de estudo da equipe. API dos desenvolvedores do cohda que utiliza os mecânismos de comunicação nativamente: https://github.com/ProjetoSegurAuto/exampleCN-LIVE
 
 Todos os devices são conectados ao barramento CAN.
 
